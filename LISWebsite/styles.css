@@ -1,0 +1,155 @@
+body, #sidebar {
+    background-color: #FFEFD9;
+}
+
+#sidebar {
+    position: fixed;
+    right: 0; 
+    top: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.sidebar-link {
+    display: block;
+    background-color: #CDE1AD;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+#Main-heading h1 {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#About-content h2 {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 38px;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+
+#About-content {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    max-width: 600px;
+}
+
+#About-content .image-container {
+    display: flex;
+    gap: 10px;
+}
+
+#About-content .image-container img {
+    width: 20%;
+    height: auto;
+}
+
+#League-content h3 {
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#League-content img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+
+.back-link {
+    display: inline-block;
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.news-body {
+    background-color: #8DE1C5;
+}
+
+.contacts-body {
+    background-color: #DEE3EA;
+}
+
+.teams-body {
+    background-color: #9988AA;
+}
+
+.matches-body {
+    background-color: #6CD3E5;
+}
+
+.teams-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-top div {
+    flex: 1;
+    text-align: center;
+}
+
+.teams-top img {
+    width: 600px;
+    max-width: 60%;
+    height: 200px;
+    margin: 10px;
+}
+
+.team-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-bottom img {
+    width: 500px;
+    max-width: 50%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.match-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-section {
+    width: 80%; 
+}
+
+.league-logo {
+    width: 300px; 
+    height: auto;
+    margin-left: 5px;
+}
+
+.league-name {
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+}
+
